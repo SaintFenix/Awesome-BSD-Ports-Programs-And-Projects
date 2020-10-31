@@ -86,7 +86,7 @@ Debian GNU/kFreeBSD does not have a port system, and instead uses the Debian Pac
 
     - [![Open-Source Software][OSS Icon]](https://github.com/ohmybash/oh-my-bash) [Oh-My-Bash](https://ohmybash.nntoan.com/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Can be installed via git or shellscript if not in Ports.
 
-    ![Not available to any BSD](img/nobsd.png) ![](img/termprog.png)
+    ![](img/termprog.png)
 <br/>
 
 - [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Fish](https://fishshell.com/) - Fish is a shell designed with user friendliness in mind, having many included features such as syntax highlighting and autosuggestions, with extensive tab autocompletion, it is a very interesting take on a POSIX shell.
@@ -95,7 +95,7 @@ Debian GNU/kFreeBSD does not have a port system, and instead uses the Debian Pac
 
    - [![Open-Source Software][OSS Icon]](https://github.com/oh-my-fish/oh-my-fish) [Oh-My-Fish](https://github.com/oh-my-fish/oh-my-fish) - Oh My Fish is an open source, framework which allows for the installation of plugins that extend the functionality of fish. Can be installed via git or shellscript.
 
-   ![Not available to any BSD](img/nobsd.png) ![](img/termprog.png)
+   ![](img/termprog.png)
 <br/>
 
 - [![Open-Source Software][OSS Icon]](https://github.com/tcsh-org/tcsh) [tcsh](https://www.tcsh.org/) - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD, and can be installed on the other four major BSD's.
