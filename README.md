@@ -27,11 +27,13 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
     - [Audio](#Audio)
     - [Desktop Environments](#Desktop-Environments)
     - [Security](#Security)
+    - [Terminal Emulators](#Terminal-Emulators)
     - [UNIX Shells](#UNIX-Shells)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
 - [Other Awesome Lists](#Other-Awesome-Lists)
 - [Attribution](#Attribution)
+- [Miscallaneous Web Sources](Miscallaneous-Web-Sources)
 
 ## Key
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) = is available in the FreeBSD Ports, provides a link to that port.
@@ -102,7 +104,7 @@ It depends on the BSD but they all will be somewhat similar, this will assume th
 
 Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, in alphabetical order here are some basic descriptions of them:
 
-#####[DragonflyBSD](https://www.dragonflybsd.org/)
+##### [DragonflyBSD](https://www.dragonflybsd.org/)
 
 <div align="center">
 
@@ -111,25 +113,25 @@ Currently there are 4 BSD projects seen as the largest among the BSD's and are t
 
 DragonFly belongs to the same class of operating systems as other BSD-derived systems and Linux. It is based on the same UNIX ideals and APIs and shares ancestor code with other BSD operating systems. DragonFly provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.
 
-#####[FreeBSD](https://www.freebsd.org/)
+##### [FreeBSD](https://www.freebsd.org/)
 
 <div align="center">
 
-![](img/freeBSD.png)
+![](img/freebsd.png)
 </div>
 
 FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
 
-#####[NetBSD](https://www.netbsd.org/)
+##### [NetBSD](https://www.netbsd.org/)
 
 <div align="center">
 
-![](img/netBSD.png)
+![](img/netbsd.png)
 </div>
 
 NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 
-#####[OpenBSD](https://www.openbsd.org/)
+##### [OpenBSD](https://www.openbsd.org/)
 
 <div align="center">
 
@@ -166,11 +168,27 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
 
+### Network tools
+
+- [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Mosh](https://fishshell.com/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/mosh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/net/mosh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/net/mosh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mosh)  ![](img/termprog.png)
+
 ### Security
 
 - [![Open-Source Software][OSS Icon]](https://github.com/BastilleBSD/bastille) [Bastille](https://bastillebsd.org/) - Bastille is an open-source system for automating deployment and management of containerized applications on FreeBSD.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/bastille/) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/doas/) [Doas](https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/doas/) - Native to OpenBSD, Doas is a program that replaces the functionality of sudo, allowing a user to do actions as the root user without logging in as the root user. It has a very simple configuration file and multiple modes.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/doas/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/doas) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/doas) ![](img/termprog.png)
+
+### Terminal Emulators
+
+- [![Open-Source Software][OSS Icon]](https://github.com/alacritty/alacritty) [Alacritty](https://github.com/alacritty/alacritty) - Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/alacritty/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/x11/alacritty) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/x11/alacritty)
 
 ### UNIX Shells
 
@@ -235,11 +253,22 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 *Other Awesome BSD lists that can shed light on other parts of BSD.*
 
 - [Awesome BSD](https://github.com/DiscoverBSD/awesome-bsd) - Covers mainly BSD OS variants, and groups to discuss BSD with across social media.
+- [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX) - covers the variety of UNIX likes and has a section for BSD.
 
 ***********
 
-## Attribution:
+## Attribution
 *The usage of the BSD Family Tree in the What is BSD FAQ is used under the GNU Free Documentation License Version 1.2 or later. All logos of the various BSD's are the property of their respective projects.*
+
+- FreeBSD® is a registered trademark of The FreeBSD Foundation. in the United States and/or other countries.
+- NetBSD® is a registered trademark of The NetBSD Foundation, Inc. in the United States and/or other countries.
+- OpenBSD ® is a registered trademark of The OpenBSD Foundation, Inc. in the United States and/or other countries.
+
+***********
+
+## Miscallaneous Web Sources
+
+-[Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to various
 
 [UNIX tree]: https://upload.wikimedia.org/wikipedia/commons/7/77/Unix_history-simple.svg
 [OSS Icon]: https://svgshare.com/i/R6P.svg
