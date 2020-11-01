@@ -20,10 +20,10 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [What is BSD?](#What-is-BSD?)
   - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux?)
   - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports?)
-  - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages?)
-  - [What if I have another BSD?](#What-if-I-have-another-BSD?)
-  - [How can I install these programs?](#How-can-I-install-these-programs?)
-  - [What are the Big Four BSD's?](#What-are-the-Big-Four-BSD's?)
+  - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages)
+  - [What if I have another BSD?](#What-if-I-have-another-BSD)
+  - [How can I install these programs?](#How-can-I-install-these-programs)
+  - [What are the Big Four BSD's?](#What-are-the-Big-Four-BSD's)
 - [Icon Key](#Key)
 - [Ports and Programs](#Ports-and-Programs)
   - [Audio](#Audio)
@@ -32,9 +32,12 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Desktop Environments](#Desktop-Environments)
   - [Emulators](#Emulators)
   - [File Managers](#File-Managers)
+  - [Network Tools](#Network-Tools)
+  - [Office](#Office)
   - [Security](#Security)
   - [Terminal Emulators](#Terminal-Emulators)
   - [UNIX Shells](#UNIX-Shells)
+  - [Utilites](#Utilities)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
 - [Other Awesome Lists](#Other-Awesome-Lists)
@@ -86,45 +89,48 @@ Debian GNU/kFreeBSD does not have a port system, and instead uses the Debian Pac
 It depends on the BSD but they all will be somewhat similar, this will assume that you have the OS setup and are sitting at a command line. These will nearly always have to be run as the super user or root. (Using the doas or sudo commands.)
 
 **DragonflyBSD**: pkg install (*packagename*)
+
 **FreeBSD**: pkg install (*packagename*)
+
 **NetBSD**: pkgin install (*packagename*)
   ^*Note that NetBSD may need to have [pkgin installed](https://pkgin.net/) first before this command will function.*
+
 **OpenBSD**: pkg_add (*packagename*)
 
 #### What are the Big Four BSD's?
 
 Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, in alphabetical order here are some basic descriptions of them:
 
-##### [DragonflyBSD](https://www.dragonflybsd.org/)
-
 <div align="center">
+
+# [DragonflyBSD](https://www.dragonflybsd.org/)
 
 ![](img/DragonflyBSD.png)
 </div>
 
 DragonFly belongs to the same class of operating systems as other BSD-derived systems and Linux. It is based on the same UNIX ideals and APIs and shares ancestor code with other BSD operating systems. DragonFly provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.
 
-##### [FreeBSD](https://www.freebsd.org/)
-
 <div align="center">
+
+# [FreeBSD](https://www.freebsd.org/)
 
 ![](img/FreeBSD.png)
 </div>
 
 FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
 
-##### [NetBSD](https://www.netbsd.org/)
-
 <div align="center">
+
+# [NetBSD](https://www.netbsd.org/)
 
 ![](img/NetBSD.png)
 </div>
 
 NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 
-##### [OpenBSD](https://www.openbsd.org/)
-
 <div align="center">
+
+# [OpenBSD](https://www.openbsd.org/)
 
 ![](img/openbsd.png)
 </div>
@@ -164,6 +170,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Command Line Utilities
 
+- [![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/anacron/) [Anacron](https://sourceforge.net/projects/anacron/) - Anacron is a periodic command scheduler. It executes commands at intervals specified in days. Unlike cron, it does not assume that the system is running continuously. It can therefore be used to control the execution of daily, weekly and monthly jobs (or anything with a period of n days), on systems that don't run 24 hours a day. When installed and configured properly, Anacron will make sure that the commands are run at the specified intervals as closely as machine-uptime permits.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/anacron/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/time/anacron) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/time/anacron) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/anacron) ![](img/termprog.png)
+
 - [![Open-Source Software][OSS Icon]](https://github.com/athityakumar/colorls) [Colorls](https://github.com/athityakumar/colorls) - A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. 🎉
 
   [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/misc/colorls) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/misc/colorls) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/colorls) ![](img/termprog.png)
@@ -175,6 +185,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://github.com/ogham/exa) [Exa](https://the.exa.website/) - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/exa/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/exa) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/dylanaraps/neofetch) [Neofetch](https://github.com/dylanaraps/neofetch) - Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/neofetch/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/neofetch) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/neofetch) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/neofetch) ![](img/termprog.png)
 
 ### Data Backup and Recovery
 
@@ -208,6 +222,22 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
 
+## Editors
+
+- [![Open-Source Software][OSS Icon]](https://github.com/mawww/kakoune) [Kakoune](http://kakoune.org/) - Modal editor · Faster as in less keystrokes · Multiple selections · Orthogonal design
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/kakoune/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/kakoune) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) [Neovim](https://neovim.io/) - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with `nvim`, not `neovim`.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/neovim/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/neovim) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/vim/vim) [Vim](https://www.vim.org/) - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/vim/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/vim) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/vim) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/vim) ![](img/termprog.png)
+
+
+
 ### Emulators
 
 - [![Open-Source Software][OSS Icon]](https://www.dosbox.com/wiki/SVN_Builds) [Dosbox](https://www.dosbox.com/) - DOSBox is a DOS-emulator that uses the SDL-library which makes DOSBox very easy to port to different platforms. DOSBox has already been ported to many different platforms, such as Windows, BeOS, Linux, and MacOS.
@@ -215,6 +245,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/emulators/dosbox/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/emulators/dosbox) ![](img/termprog.png)
 
 ### File Managers
+
+- [![Open-Source Software][OSS Icon]](https://github.com/jarun/nnn) [nnn](https://github.com/jarun/nnn) - nnn is a fast and resource-sensitive file browser which integrates well with your DE and favorite GUI utilities, works with the desktop opener, supports bookmarks, has smart navigation shortcuts, has navigate-as-you-type mode, disk usage analyzer mode, comprehensive file details and much more.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/misc/nnn/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/nnn) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/nnn) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/nnn) ![](img/termprog.png)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/ranger/ranger) [ranger](https://ranger.github.io/) - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.
 
@@ -225,6 +259,16 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Mosh](https://fishshell.com/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/mosh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/net/mosh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/net/mosh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mosh)  ![](img/termprog.png)
+
+### Office
+
+- [![Open-Source Software][OSS Icon]](https://github.com/KDE/calligra) [Calligra](https://calligra.org/) - Calligra Suite is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/calligra/) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/calligra)
+
+- [![Open-Source Software][OSS Icon]](https://gerrit.libreoffice.org/) [Libreoffice](https://www.libreoffice.org/) - LibreOffice is a free and powerful office suite, and a successor to OpenOffice .org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/arabic/libreoffice/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/misc/libreoffice) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/misc/libreoffice) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/libreoffice)
 
 ### Security
 
@@ -287,11 +331,17 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
     [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/ohmyzsh/) ![](img/termprog.png)
 <br/>
 
+### Utilities
+
+- [![Open-Source Software][OSS Icon]](https://github.com/bleachbit/bleachbit) [Bleachbit](https://www.bleachbit.org/) - Zsh is an extension of the Bourne Shell (bsh) and includes many improvements such as autocorrect, autocompletion, and is extensible with a great deal of many features. Theming is very popular with Zsh. It is the Default Shell on MacOS.
+
+  [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/bleachbit) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/bleachbit)
+
 ***********
 
 ## Projects
 
-*Links here are to projects that use the BSD OS in some capacity, Firewalls, Webservers, Gameservers, you name it!*
+*Links here are some projects that use the BSD OS in some capacity, Firewalls, Webservers, Gameservers, you name it! Just to give you an idea of what you can do with the OS!*
 
 ***********
 
