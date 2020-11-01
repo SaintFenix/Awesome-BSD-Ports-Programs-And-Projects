@@ -17,9 +17,9 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
 ## Table of Contents
 
 - [Frequenty Asked Questions](#FAQ)
-  - [What is BSD?](#What-is-BSD?)
-  - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux?)
-  - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports?)
+  - [What is BSD?](#What-is-BSD)
+  - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux)
+  - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports)
   - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages)
   - [What if I have another BSD?](#What-if-I-have-another-BSD)
   - [How can I install these programs?](#How-can-I-install-these-programs)
@@ -38,11 +38,14 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Terminal Emulators](#Terminal-Emulators)
   - [UNIX Shells](#UNIX-Shells)
   - [Utilites](#Utilities)
+- [Miscallaneous BSDs](#Miscallaneous-BSDs)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
+- [Miscallaneous Web Sources](#Miscallaneous-Web-Sources)
+  - [BSD Handbooks](#BSD-Handbooks)
 - [Other Awesome Lists](#Other-Awesome-Lists)
 - [Attribution](#Attribution)
-- [Miscallaneous Web Sources](#Miscallaneous-Web-Sources)
+
 
 ## FAQ
 
@@ -224,13 +227,38 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ## Editors
 
+- [![Open-Source Software][OSS Icon]](https://github.com/emacs-mirror/emacs) [Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/emacs/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/emacs) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/emacs) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/emacs) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/tsujan/FeatherPad) [Featherpad](https://github.com/tsujan/FeatherPad) - FeatherPad is a lightweight Qt5 plain-text editor. It is independent of any desktop environment and has: Drag-and-drop support, including tab detachment and attachment, Instant highlighting of found matches when searching, A docked window for text replacement and much more.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/featherpad/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/featherpad) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/featherpad) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/featherpad)
+
 - [![Open-Source Software][OSS Icon]](https://github.com/mawww/kakoune) [Kakoune](http://kakoune.org/) - Modal editor · Faster as in less keystrokes · Multiple selections · Orthogonal design
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/kakoune/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/kakoune) ![](img/termprog.png)
 
+- [![Open-Source Software][OSS Icon]](http://tarot.freeshell.org/leafpad/) [Leafpad](http://tarot.freeshell.org/leafpad/) - Leafpad is a simple GTK+ text editor that emphasizes simplicity. As development focuses on keeping weight down to a minimum, only the most essential features are implemented in the editor. Leafpad is simple to use, is easily compiled, requires few libraries, and starts up quickly.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/leafpad/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/leafpad) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/leafpad) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/leafpad)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/zyedidia/micro) [Micro](https://micro-editor.github.io/) - Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/micro/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/micro) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/micro) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/micro) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://git.savannah.gnu.org/cgit/nano.git/log/) [Nano](https://www.nano-editor.org/) -nano is a small, free and friendly editor which aims to replace Pico, the default editor included in the non-free Pine package. Rather than just copying Pico's look and feel, nano also implements some missing (or disabled by default) features in Pico, such as "search and replace" and "goto line number".
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/nano/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/nano) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/nano) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/nano) ![](img/termprog.png)
+
 - [![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) [Neovim](https://neovim.io/) - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with `nvim`, not `neovim`.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/neovim/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/neovim) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/syl20bnr/spacemacs#emacs) [Spacemacs](https://github.com/syl20bnr/spacemacs) - A community-driven Emacs distribution
+The best editor is neither Emacs nor Vim, it's Emacs and Vim!
+
+  ![](img/termprog.png)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/vim/vim) [Vim](https://www.vim.org/) - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
 
@@ -270,6 +298,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/arabic/libreoffice/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/misc/libreoffice) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/misc/libreoffice) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/libreoffice)
 
+- [![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/projectlibre/) [ProjectLibre](https://www.projectlibre.com/product/1-alternative-microsoft-project-open-source) - ProjectLibre is an open source project management software. It intends to be a complete desktop replacement for Microsoft Project. ProjectLibre offers full compatibility with Microsoft Project 2010.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/deskutils/projectlibre/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/time/projectlibre) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/time/projectlibre) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/productivity/projectlibre)
+
 ### Security
 
 - [![Open-Source Software][OSS Icon]](https://github.com/BastilleBSD/bastille) [Bastille](https://bastillebsd.org/) - Bastille is an open-source system for automating deployment and management of containerized applications on FreeBSD.
@@ -283,6 +315,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://github.com/fail2ban/fail2ban) [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/py-fail2ban/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/fail2ban) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/fail2ban) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/future-architect/vuls) [Vuls](https://vuls.io/) - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/vuls/)
 
 ### Terminal Emulators
 
@@ -339,18 +375,95 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ***********
 
+## Miscallaneous BSDs
+*Here are the various other smaller BSD's that exist, some are for very specific purposes, but there are many BSD's.*
+
+- [BlackBSD](http://blackbsd.tk/) - Based off of NetBSD BlackBSD is a penetration testing distribution with many common pen-testing applications pre-installed. It functions completely as a liveCD or USB.
+- [GhostBSD](https://ghostbsd.org/) - A BSD based on FreeBSD it is Designed around the MATE desktop Environment or the XFCE desktop environment, Attempting to be simple, complete, and welcoming.
+- [OPNsense](https://opnsense.org/) - A BSD that functions as a Firewall for a home network, or Enterprise, one of the successors to m0n0wall.
+- [pfsense](https://www.pfsense.org/)- A BSD that functions as a firewall for a home or enterprise network, one of the successors to m0n0wall.
+- [MidnightBSD](https://www.midnightbsd.org/) - A BSD designed for the average desktop user with both Lumina and GNOME 3 desktops available and all the basic software the average user would need.
+- [TrueNAS](https://www.truenas.com/) - A BSD based off of FreeBSD focussing on providing the best Fileserver experience for both at home, and in the enterprise.
+- [XigmaNAS](https://www.xigmanas.com/) - A BSD based off of FreeBSD which focuses on turning your computer into a Network Attached Storage Appliance.
+
+
+***********
+
 ## Projects
 
 *Links here are some projects that use the BSD OS in some capacity, Firewalls, Webservers, Gameservers, you name it! Just to give you an idea of what you can do with the OS!*
+
+**FreeBSD:**
+- [How to setup a Minecraft server on FreeBSD](https://freebsdfoundation.org/freebsd-project/resources/easy-minecraft-server-on-freebsd/)
+  - [How to make it autostart whenever FreeBSD boots](https://minecraft.gamepedia.com/Tutorials/FreeBSD_startup_script)
+- [Alternative setup for Minecraft on BSD with TMUX and Java installation](https://virtualisationworks.wordpress.com/2017/02/02/minecraft-with-java-and-tmux-on-freebsd/)
+- [How to customize the FreeBSD Kernel](https://www.nxfury.com/the-power-to-serve-custom-kernel-goodness-on-freebsd)
+- [How to Setup a Samba (Windows) fileserver w/FreeBSD](https://vermaden.wordpress.com/2018/12/27/smb-cifs-on-freebsd/)
+- [How to get Stardew Valley running on FreeBSD](https://bitcannon.net/post/stardew-valley-on-freebsd/)
+
+**OPNsense:**
+- [How to Setup an OPNsense Firewall on your network](https://www.tecmint.com/install-and-configure-opnsense-firewall/)
+
+**TrueNAS:**
+- [How to Setup a TrueNAS home Fileserver](https://www.storagereview.com/review/how-to-install-truenas-core) - This tutorial uses higher end server hardware, but should apply equally to consumer hardware.
+
+
 
 ***********
 
 ## How-To's
 
+**Basics:**
+-[FreeBSD Quickstart from the FreeBSD Foundation](https://freebsdfoundation.org/wp-content/uploads/2018/07/quickstartguidefinal.pdf)
+
+**How to Install Ports on the Major 4 BSD's:**
 - [How to install Ports in DragonflyBSD](https://www.dragonflybsd.org/docs/howtos/HowToDPorts/) - From the official DragonflyBSD Docs
 - [How to install Ports in FreeBSD](https://www.freebsd.org/doc/handbook/ports-using.html) - From the official FreeBSD Docs.
 - [How to install Ports in NetBSD](https://www.netbsd.org/docs/pkgsrc/using.html) - From the official NetBSD Docs.
 - [How to install Ports in OpenBSD](https://www.openbsd.org/faq/ports/ports.html) - From the official OpenBSD FAQs.
+
+**Installation:**
+- [How to install FreeBSD on a Raspberry Pi](https://freebsdfoundation.org/freebsd-project/resources/installing-freebsd-for-raspberry-pi/)
+- [How to Dual Boot FreeBSD with Windows 10](https://basicbsd.wordpress.com/2018/01/28/bad-install/)
+- [How to install FreeBSD in Virtualbox](https://linuxhint.com/install_freebsd_virtualbox/)
+- [How to install the VIM Text Editor on FreeBSD](https://www.cyberciti.biz/faq/howto-install-vim-text-editor-under-freebsd/)
+- [How to install ports on FreeBSD in a virtual machine](https://freebsdfoundation.org/freebsd-project/resources/installing-a-port-on-freebsd/)
+- [How to install git on FreeBSD](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-freebsd-11-0)
+
+**Networking and File Sharing:**
+- [How to share files to MacOS via Samba](https://cmcenroe.me/2017/01/08/freebsd-macos-file-sharing.html)
+- [How to install rSnapshot on FreeBSD to backup local and remote machines](https://www.cyberciti.biz/faq/howto-install-rsnapshot-filesystem-snapshot-backup-utility-in-freebsd/)
+
+**Security:**
+- [How to handle Full disk encyrption in FreeBSD](https://www.c0ffee.net/blog/freebsd-full-disk-encryption-uefi/)
+
+**System Administration:**
+- [How and why to Add other user accounts on FreeBSD](https://www.instructables.com/How-and-why-to-Add-Users-to-FreeBSD/)
+- [How to check Hard Drive or SDD Health in FreeBSD](https://www.osetc.com/en/how-to-check-hard-drive-health-on-freebsd.html)
+- [How to install Security updates on FreeBSD](https://www.cyberciti.biz/faq/freebsd-applying-security-updates-using-pkg-freebsd-update/)
+- [How to change your hostname (Computer Name) on FreeBSD](https://codesposts.com/y0pQ2lO3)
+- [How to user Ansible on FreeBSD](https://rubenerd.com/ansible-on-freebsd/)
+- [How to figure out the system Temperature in FreeBSD](https://www.cyberciti.biz/faq/freebsd-determine-processor-cpu-temperature-command/)
+- [How to setup booting Linux and BSD from the same ZFS pool](https://www.reddit.com/r/freebsd/comments/jh8zkc/successfully_dual_boot_freebsd_linux_installed_in/)
+
+***********
+
+## Miscallaneous Web Sources
+
+- [FreeBSD Foundation Resources](https://freebsdfoundation.org/freebsd-project/resources/) - a variety of how-to's and projects for FreeBSD users from the Free BSD foundation.
+- [FreeBSDnews.com](https://www.freebsdnews.com/) - a News website dedicated to FreeBSD.
+- [iBSD](https://i-bsd.com/blog/) - a Blog dedicated to showing how to do things on BSD.
+- [Netbsd.fi](https://netbsd.fi/) - a website that combines netbsd questions and news articles into a continuos feed.
+- [Pkgs.org](https://pkgs.org/) - Pkgs.org is a website dedicated to tracking packages for multiple OS's and also does so for the NetBSD and Free BSD Projects.
+- [Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to providing the visitor with a random fact about why OpenBSD is a well built Operating System.
+
+#### BSD Handbooks
+*Due to how BSD is developed, documentation is seen as a very important part of the process, because of this each of the Major BSD's publishes a handbook yearly for their OS's. This covers the basics of installing, operating, installing, and administrating each of their OS's.*
+
+[The DragonflyBSD Handbook](https://www.dragonflybsd.org/docs/handbook/)
+[The FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/)
+[The NetBSD Handbook](https://www.netbsd.org/docs/guide/en/)
+[The OpenBSD Handbook](https://www.openbsdhandbook.com/)
 
 ***********
 
@@ -372,11 +485,6 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - OpenBSD ® is a registered trademark of The OpenBSD Foundation, Inc. in the United States and/or other countries.
 
 ***********
-
-## Miscallaneous Web Sources
-
--[Pkgs.org](https://pkgs.org/) - Pkgs.org is a website dedicated to tracking packages for multiple OS's and also does so for the NetBSD and Free BSD Projects.
--[Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to various
 
 [UNIX tree]: https://upload.wikimedia.org/wikipedia/commons/7/77/Unix_history-simple.svg
 [OSS Icon]: https://svgshare.com/i/R6P.svg
