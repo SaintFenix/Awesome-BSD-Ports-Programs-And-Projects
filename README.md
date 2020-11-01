@@ -1,11 +1,13 @@
 # <div align="center">Awesome-BSD-PPP</div>
-###### <div align="center">Port, Programs, and Projects! </div>
+
 
 ***********
 
 ![BSD Banner](img/BSDGitLogo.png)
 
 ***********
+
+###### <div align="center">Port, Programs, and Projects! </div>
 
 This repository will function as a list of interesting ports, programs, and Projects for newbies and veterans to BSD.
 
@@ -14,41 +16,27 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
 
 ## Table of Contents
 
-- [Icon Key](#Key)
 - [Frequenty Asked Questions](#FAQ)
-    - [What is BSD?](#What-is-BSD?)
-    - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux?)
-    - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports?)
-    - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages?)
-    - [What if I have another BSD?](What-if-I-have-another-BSD?)
-    - [How can I install these programs?](How-can-I-install-these-programs?)
-    - [What are the Big Four BSD's?](What-are-the-Big-Four-BSD's?)
+  - [What is BSD?](#What-is-BSD?)
+  - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux?)
+  - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports?)
+  - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages?)
+  - [What if I have another BSD?](What-if-I-have-another-BSD?)
+  - [How can I install these programs?](How-can-I-install-these-programs?)
+  - [What are the Big Four BSD's?](What-are-the-Big-Four-BSD's?)
+- [Icon Key](#Key)
 - [Ports and Programs](#Ports-and-Programs)
-    - [Audio](#Audio)
-    - [Desktop Environments](#Desktop-Environments)
-    - [Security](#Security)
-    - [Terminal Emulators](#Terminal-Emulators)
-    - [UNIX Shells](#UNIX-Shells)
+  - [Audio](#Audio)
+  - [Desktop Environments](#Desktop-Environments)
+  - [Emulators](#Emulators)
+  - [Security](#Security)
+  - [Terminal Emulators](#Terminal-Emulators)
+  - [UNIX Shells](#UNIX-Shells)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
 - [Other Awesome Lists](#Other-Awesome-Lists)
 - [Attribution](#Attribution)
 - [Miscallaneous Web Sources](#Miscallaneous-Web-Sources)
-
-## Key
-  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) = is available in the FreeBSD Ports, provides a link to that port.
-
-  [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/bash) = is available in the NetBSD Ports, provides a link to that port.
-
-  [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/bash) = is available in the DragonflyBSD Ports, provides a link to that port.
-
-  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/bash) = is available in the OpenBSD Ports, provides a link to that port.
-
-  [![Terminal Program](img/termprog.png)](https://en.wikipedia.org/wiki/Command-line_interface) = Program is Command line only.
-
-  ![Open-Source Software][OSS Icon] = Program is open source, and is freely available, source code and all.
-
-  ![Closed-Source Software][Money Icon] = Program is closed source, and may cost money.
 
 ## FAQ
 
@@ -142,6 +130,23 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ***********
 
+## Key
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) = is available in the FreeBSD Ports, and provides a link to that port.
+
+  [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/bash) = is available in the NetBSD Ports, and provides a link to that port.
+
+  [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/bash) = is available in the DragonflyBSD Ports, and provides a link to that port.
+
+  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/bash) = is available in the OpenBSD Ports, and provides a link to that port.
+
+  [![Terminal Program](img/termprog.png)](https://en.wikipedia.org/wiki/Command-line_interface) = Program is Command line only.
+
+  ![Open-Source Software][OSS Icon] = Program is open source, and is freely available, source code and all.
+
+  ![Closed-Source Software][Money Icon] = Program is closed source, and may cost money.
+
+***********
+
 ## Ports and Programs
 
 ### Audio
@@ -168,6 +173,12 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
 
+### Emulators
+
+- [![Open-Source Software][OSS Icon]](https://www.dosbox.com/wiki/SVN_Builds) [Dosbox](https://www.dosbox.com/) - DOSBox is a DOS-emulator that uses the SDL-library which makes DOSBox very easy to port to different platforms. DOSBox has already been ported to many different platforms, such as Windows, BeOS, Linux, and MacOS.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/emulators/dosbox/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/emulators/dosbox) ![](img/termprog.png)
+
 ### Network tools
 
 - [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Mosh](https://fishshell.com/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
@@ -183,6 +194,10 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/doas/) [Doas](https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/doas/) - Native to OpenBSD, Doas is a program that replaces the functionality of sudo, allowing a user to do actions as the root user without logging in as the root user. It has a very simple configuration file and multiple modes.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/doas/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/doas) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/doas) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/fail2ban/fail2ban) [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/py-fail2ban/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/fail2ban) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/fail2ban) ![](img/termprog.png)
 
 ### Terminal Emulators
 
@@ -213,9 +228,9 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/fish/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/fish) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/fish) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/fish)  ![](img/termprog.png)
 
-   - [![Open-Source Software][OSS Icon]](https://github.com/oh-my-fish/oh-my-fish) [Oh-My-Fish](https://github.com/oh-my-fish/oh-my-fish) - Oh My Fish is an open source, framework which allows for the installation of plugins that extend the functionality of fish. Can be installed via git or shellscript.
+  - [![Open-Source Software][OSS Icon]](https://github.com/oh-my-fish/oh-my-fish) [Oh-My-Fish](https://github.com/oh-my-fish/oh-my-fish) - Oh My Fish is an open source, framework which allows for the installation of plugins that extend the functionality of fish. Can be installed via git or shellscript.
 
-      ![](img/termprog.png)
+    ![](img/termprog.png)
 <br/>
 
 - [![Open-Source Software][OSS Icon]](https://github.com/tcsh-org/tcsh) [tcsh](https://www.tcsh.org/) - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD, and can be installed on the other four major BSD's.
@@ -224,11 +239,11 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 - [![Open-Source Software][OSS Icon]](http://zsh.sourceforge.net/Arc/source.html) [Zsh](http://zsh.sourceforge.net/) - Zsh is an extension of the Bourne Shell (bsh) and includes many improvements such as autocorrect, autocompletion, and is extensible with a great deal of many features. Theming is very popular with Zsh. It is the Default Shell on MacOS.
 
-    [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)
 
-    - [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git shellscript if not in Ports.
+  - [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git shellscript if not in Ports.
 
-      [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/ohmyzsh/) ![](img/termprog.png)
+    [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/ohmyzsh/) ![](img/termprog.png)
 <br/>
 
 ***********
@@ -269,6 +284,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ## Miscallaneous Web Sources
 
+-[Pkgs.org](https://pkgs.org/) - Pkgs.org is a website dedicated to tracking packages for multiple OS's and also does so for the NetBSD and Free BSD Projects.
 -[Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to various
 
 [UNIX tree]: https://upload.wikimedia.org/wikipedia/commons/7/77/Unix_history-simple.svg
