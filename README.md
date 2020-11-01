@@ -21,14 +21,17 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [How is BSD different than Linux?](#How-is-BSD-different-than-Linux?)
   - [What are the differences between Packages and Ports?](#What-are-the-differences-between-Packages-and-Ports?)
   - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages?)
-  - [What if I have another BSD?](What-if-I-have-another-BSD?)
-  - [How can I install these programs?](How-can-I-install-these-programs?)
-  - [What are the Big Four BSD's?](What-are-the-Big-Four-BSD's?)
+  - [What if I have another BSD?](#What-if-I-have-another-BSD?)
+  - [How can I install these programs?](#How-can-I-install-these-programs?)
+  - [What are the Big Four BSD's?](#What-are-the-Big-Four-BSD's?)
 - [Icon Key](#Key)
 - [Ports and Programs](#Ports-and-Programs)
   - [Audio](#Audio)
+  - [Command Line Utilities](#Command-Line-Utilities)
+  - [Data Backup and Recovery](#Data-Backup-and-Recovery)
   - [Desktop Environments](#Desktop-Environments)
   - [Emulators](#Emulators)
+  - [File Managers](#File-Managers)
   - [Security](#Security)
   - [Terminal Emulators](#Terminal-Emulators)
   - [UNIX Shells](#UNIX-Shells)
@@ -80,7 +83,7 @@ Debian GNU/kFreeBSD does not have a port system, and instead uses the Debian Pac
 
 #### How can I install these programs?
 
-It depends on the BSD but they all will be somewhat similar, this will assume that you have the OS setup and are sitting at a command line. These will nearly always have to be run as the super user or root.
+It depends on the BSD but they all will be somewhat similar, this will assume that you have the OS setup and are sitting at a command line. These will nearly always have to be run as the super user or root. (Using the doas or sudo commands.)
 
 **DragonflyBSD**: pkg install (*packagename*)
 **FreeBSD**: pkg install (*packagename*)
@@ -141,7 +144,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Terminal Program](img/termprog.png)](https://en.wikipedia.org/wiki/Command-line_interface) = Program is Command line only.
 
-  ![Open-Source Software][OSS Icon] = Program is open source, and is freely available, source code and all.
+  ![Open-Source Software][OSS Icon] = Program is open source, and is freely available, source code and all. if you click this icon, it will take you to that source code for that program.
 
   ![Closed-Source Software][Money Icon] = Program is closed source, and may cost money.
 
@@ -158,6 +161,38 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://github.com/clementine-player/Clementine) [Clementine](https://www.clementine-player.org/) - Clementine is a multiplatform music player. It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/audio/clementine-player/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/clementine) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/clementine) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/audio/clementine)
+
+### Command Line Utilities
+
+- [![Open-Source Software][OSS Icon]](https://github.com/athityakumar/colorls) [Colorls](https://github.com/athityakumar/colorls) - A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. 🎉
+
+  [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/misc/colorls) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/misc/colorls) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/colorls) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](http://mama.indstate.edu/users/ice/tree/) [Colortree](http://mama.indstate.edu/users/ice/tree/) - Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. Tree has been ported and reported to work under the following operating systems: Linux, FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.
+
+  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/colortree) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/ogham/exa) [Exa](https://the.exa.website/) - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/exa/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/exa) ![](img/termprog.png)
+
+### Data Backup and Recovery
+
+- [![Open-Source Software][OSS Icon]](https://www.bacula.org/git/cgit.cgi/bacula/) [Bacula - Client](https://www.bacula.org/) - Bacula is a set of Open Source, computer programs that permit you to manage backup, recovery, and verification of computer data across a network of computers of different kinds. This is for the client installation.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/bacula9-client/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/bacula-clientonly) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/bacula-clientonly) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/bacula)
+
+- [![Open-Source Software][OSS Icon]](https://www.bacula.org/git/cgit.cgi/bacula/) [Bacula - Server](https://www.bacula.org/) - Bacula is a set of Open Source, computer programs that permit you to manage backup, recovery, and verification of computer data across a network of computers of different kinds. This is for the server installation.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/bacula9-server/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/bacula) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/bacula)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/borgbackup/borg) [BorgBackup](https://borgbackup.readthedocs.io/en/stable/) - BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption. The main goal of Borg is to provide an efficient and secure way to backup data. The data deduplication technique used makes Borg suitable for daily backups since only changes are stored. The authenticated encryption technique makes it suitable for backups to not fully trusted targets.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/archivers/py-borgbackup/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/py-borgbackup) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/py-borgbackup) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/borgbackup) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/backuppc/backuppc) [BackupPC](https://backuppc.github.io/backuppc/) - BackupPC is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/backuppc/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/backuppc) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/backuppc) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/backuppc) ![](img/termprog.png)
 
 ### Desktop Environments
 
@@ -178,6 +213,12 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 - [![Open-Source Software][OSS Icon]](https://www.dosbox.com/wiki/SVN_Builds) [Dosbox](https://www.dosbox.com/) - DOSBox is a DOS-emulator that uses the SDL-library which makes DOSBox very easy to port to different platforms. DOSBox has already been ported to many different platforms, such as Windows, BeOS, Linux, and MacOS.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/emulators/dosbox/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/emulators/dosbox) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/emulators/dosbox) ![](img/termprog.png)
+
+### File Managers
+
+- [![Open-Source Software][OSS Icon]](https://github.com/ranger/ranger) [ranger](https://ranger.github.io/) - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/py-ranger/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/ranger) ![](img/termprog.png)
 
 ### Network tools
 
@@ -233,7 +274,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
     ![](img/termprog.png)
 <br/>
 
-- [![Open-Source Software][OSS Icon]](https://github.com/tcsh-org/tcsh) [tcsh](https://www.tcsh.org/) - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD, and can be installed on the other four major BSD's.
+- [![Open-Source Software][OSS Icon]](https://github.com/tcsh-org/tcsh) [tcsh](https://www.tcsh.org/) - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD though not its default user shell, and can be installed on the other major BSD's.
 
    ![Available in FreeBSD](img/freebsdico.png) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/tcsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/tcsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/tcsh)  ![](img/termprog.png)
 
@@ -241,7 +282,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)
 
-  - [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git shellscript if not in Ports.
+  - [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git or shellscript if not in Ports. The original oh-my-framework.
 
     [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/ohmyzsh/) ![](img/termprog.png)
 <br/>
