@@ -33,7 +33,7 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
 - [How-To's](#How-To's)
 - [Other Awesome Lists](#Other-Awesome-Lists)
 - [Attribution](#Attribution)
-- [Miscallaneous Web Sources](Miscallaneous-Web-Sources)
+- [Miscallaneous Web Sources](#Miscallaneous-Web-Sources)
 
 ## Key
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) = is available in the FreeBSD Ports, provides a link to that port.
@@ -117,7 +117,7 @@ DragonFly belongs to the same class of operating systems as other BSD-derived sy
 
 <div align="center">
 
-![](img/freebsd.png)
+![](img/FreeBSD.png)
 </div>
 
 FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
@@ -126,7 +126,7 @@ FreeBSD is an operating system used to power modern servers, desktops, and embed
 
 <div align="center">
 
-![](img/netbsd.png)
+![](img/NetBSD.png)
 </div>
 
 NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
@@ -253,6 +253,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 *Other Awesome BSD lists that can shed light on other parts of BSD.*
 
 - [Awesome BSD](https://github.com/DiscoverBSD/awesome-bsd) - Covers mainly BSD OS variants, and groups to discuss BSD with across social media.
+- [Awesome OpenBSD](https://github.com/ligurio/awesome-openbsd) - A List of resources related to the Open BSD Operating System.
 - [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX) - covers the variety of UNIX likes and has a section for BSD.
 
 ***********
