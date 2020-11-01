@@ -35,11 +35,17 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
 
 ## Key
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) = is available in the FreeBSD Ports, provides a link to that port.
+
   [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/bash) = is available in the NetBSD Ports, provides a link to that port.
+
   [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/bash) = is available in the DragonflyBSD Ports, provides a link to that port.
+
   [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/bash) = is available in the OpenBSD Ports, provides a link to that port.
+
   [![Terminal Program](img/termprog.png)](https://en.wikipedia.org/wiki/Command-line_interface) = Program is Command line only.
+
   ![Open-Source Software][OSS Icon] = Program is open source, and is freely available, source code and all.
+
   ![Closed-Source Software][Money Icon] = Program is closed source, and may cost money.
 
 ## FAQ
@@ -59,6 +65,10 @@ Because of this difference and because BSD is built around an entire ecosystem f
 For the average UNIX user, it will seem very familiar in many ways, and learning BSD from Linux or other UNIX based Operating Systems will be fairly straightforward, with nearly all of the most common UNIX friendly tools and shells are available for the user.
 
 #### What are the differences between Packages and Ports?
+<div align="center">
+
+![](img/ports.jpg)
+</div>
 
 A ***Package*** (Referred to as a program in this list) is a program already compiled into a binary that can be run on the largest number of systems due to be pre-compiled for you with the most general settings. It requires only the briefest installation, and does not require compilation to run on your machine.
 
@@ -90,18 +100,38 @@ It depends on the BSD but they all will be somewhat similar, this will assume th
 
 #### What are the Big Four BSD's?
 
-Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, here are some basic descriptions of them:
+Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, in alphabetical order here are some basic descriptions of them:
 
 #####[DragonflyBSD](https://www.dragonflybsd.org/)
+<div align="center">
+
+![](img/DragonflyBSD.png)
+</div>
+
 DragonFly belongs to the same class of operating systems as other BSD-derived systems and Linux. It is based on the same UNIX ideals and APIs and shares ancestor code with other BSD operating systems. DragonFly provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.
 
 #####[FreeBSD](https://www.freebsd.org/)
+<div align="center">
+
+![](img/freebsd.png)
+</div>
+
 FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
 
 #####[NetBSD](https://www.netbsd.org/)
+<div align="center">
+
+![](img/netbsd.png)
+</div>
+
 NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 
 #####[OpenBSD](https://www.openbsd.org/)
+<div align="center">
+
+![](img/openbsd.png)
+</div>
+
 The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography. As an example of the effect OpenBSD has, the popular OpenSSH software comes from OpenBSD.
 
 ***********
