@@ -103,6 +103,7 @@ It depends on the BSD but they all will be somewhat similar, this will assume th
 Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, in alphabetical order here are some basic descriptions of them:
 
 #####[DragonflyBSD](https://www.dragonflybsd.org/)
+
 <div align="center">
 
 ![](img/DragonflyBSD.png)
@@ -111,22 +112,25 @@ Currently there are 4 BSD projects seen as the largest among the BSD's and are t
 DragonFly belongs to the same class of operating systems as other BSD-derived systems and Linux. It is based on the same UNIX ideals and APIs and shares ancestor code with other BSD operating systems. DragonFly provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.
 
 #####[FreeBSD](https://www.freebsd.org/)
+
 <div align="center">
 
-![](img/freebsd.png)
+![](img/freeBSD.png)
 </div>
 
 FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
 
 #####[NetBSD](https://www.netbsd.org/)
+
 <div align="center">
 
-![](img/netbsd.png)
+![](img/netBSD.png)
 </div>
 
 NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 
 #####[OpenBSD](https://www.openbsd.org/)
+
 <div align="center">
 
 ![](img/openbsd.png)
