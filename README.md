@@ -42,9 +42,10 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [UNIX Shells](#UNIX-Shells)
   - [Utilities](#Utilities)
 - [Miscallaneous BSDs](#Miscallaneous-BSDs)
+- [Community](#Community)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
-- [Miscallaneous Web Sources](#Miscallaneous-Web-Sources)
+- [Miscallaneous Web Resources](#Miscallaneous-Web-Resources)
   - [BSD Handbooks](#BSD-Handbooks)
 - [Other Awesome Lists](#Other-Awesome-Lists)
 - [Attribution](#Attribution)
@@ -332,7 +333,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/atom/)
 
-  - [![Open-Source Software][OSS Icon]](https://github.com/facebookarchive/atom-ide-ui) [Atom-ide](https://ide.atom.io/) - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin. 
+  - [![Open-Source Software][OSS Icon]](https://github.com/facebookarchive/atom-ide-ui) [Atom-ide](https://ide.atom.io/) - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin.
 <br/>
 
 - [![Open-Source Software][OSS Icon]](https://github.com/emacs-mirror/emacs) [Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
@@ -341,7 +342,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 - [![Open-Source Software][OSS Icon]](https://github.com/tsujan/FeatherPad) [Featherpad](https://github.com/tsujan/FeatherPad) - FeatherPad is a lightweight Qt5 plain-text editor. It is independent of any desktop environment and has: Drag-and-drop support, including tab detachment and attachment, Instant highlighting of found matches when searching, A docked window for text replacement and much more.
 
-  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/featherpad/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/featherpad) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/featherpad) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/featherpad)
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/featherpad/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/featherpad) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkeachbigsrc.se/editors/featherpad) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/featherpad)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/mawww/kakoune) [Kakoune](http://kakoune.org/) - Modal editor · Faster as in less keystrokes · Multiple selections · Orthogonal design
 
@@ -477,7 +478,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ### Utilities
 
-- [![Open-Source Software][OSS Icon]](https://github.com/bleachbit/bleachbit) [Bleachbit](https://www.bleachbit.org/) - Zsh is an extension of the Bourne Shell (bsh) and includes many improvements such as autocorrect, autocompletion, and is extensible with a great deal of many features. Theming is very popular with Zsh. It is the Default Shell on MacOS.
+- [![Open-Source Software][OSS Icon]](https://github.com/bleachbit/bleachbit) [Bleachbit](https://www.bleachbit.org/) - When your computer is getting full, BleachBit quickly frees disk space. When your information is only your business, BleachBit guards your privacy. With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean thousands of applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.
 
   [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/bleachbit) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/bleachbit)
 
@@ -556,22 +557,84 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ***********
 
-## Miscallaneous Web Sources
+## Community
+
+### Forums:
+
+#### DragonflyBSD Forums:
+- [DragonflyBSD Mailing Lists](https://www.dragonflybsd.org/mailinglists/) - The Official DragonflyBSD Mailing lists.
+
+#### FreeBSD Forums:
+- [FreeBSD Forums](https://forums.freebsd.org/) - The Official FreeBSD forums.
+- [FreeBSD Mailing Lists](https://www.freebsd.org/community/mailinglists.html) - The Official FreeBSD Mailing lists.
+- [Raspberry Pi Forums - FreeBSD](https://www.raspberrypi.org/forums/viewforum.php?f=85) - A Forum dedicated for those running FreeBSD on Raspberry Pi.
+
+#### NetBSD Forums:
+- [NetBSD Mailing Lists](https://www.netbsd.org/mailinglists/) - The Official NetBSD Mailing lists.
+- [NetBSD Mailing List Forum Mirror](http://netbsd.2816.n7.nabble.com/) - This forum functions as a bridge to the Net BSD Mailing lists, and posts and replies on either end, will show for the other side.
+
+#### OpenBSD Forums:
+- [OpenBSD Mailing Lists](https://www.openbsd.org/mail.html) - The Official OpenBSD Mailing Lists.
+
+#### OtherBSD Forums:
+- [GhostBSD Forums](https://forums.ghostbsd.org/) - The Official GhostBSD Forums.
+
+#### General BSD Forums:
+- [DaemonForums](http://daemonforums.org/) - a very long running forum with sections for FreeBSD, NetBSD, and OpenBSD.
+- [UnitedBSD Main Forum](https://www.unitedbsd.com/)
+- [UnitedBSD - DragonflyBSD](https://www.unitedbsd.com/t/otherbsds)
+- [UnitedBSD - FreeBSD](https://www.unitedbsd.com/t/FreeBSD)
+- [UnitedBSD - NetBSD](https://www.unitedbsd.com/t/NetBSD)
+- [UnitedBSD - OpenBSD](https://www.unitedbsd.com/t/OpenBSD)
+- [UnitedBSD - OtherBSDs](https://www.unitedbsd.com/t/otherbsds)
+
+### IRC Channels:
+- [Freenode #BSD](https://en.irc2go.com/webchat/?net=freenode&room=%23bsd)
+- [Freenode DragonflyBSD](https://netsplit.de/channels/details.php?room=%23dragonflybsd&net=freenode)
+- [Freenode FreeBSD-irc](https://en.irc2go.com/webchat/?net=freenode&room=freebsd-irc)
+- [Freenode FreeBSD-Ports](https://en.irc2go.com/webchat/?net=freenode&room=freebsd-ports)
+- [Freenode NetBSD](https://en.irc2go.com/webchat/?net=freenode&room=NetBSD)
+- [Freenode NetBSD-Code](https://en.irc2go.com/webchat/?net=freenode&room=netbsd-code)
+- [Freenode OpenBSD](https://en.irc2go.com/webchat/?net=freenode&room=openbsd)
+- [Freenode OpenBSD-Gaming](https://en.irc2go.com/webchat/?net=freenode&room=openbsd-gaming)
+- [GhostBSD IRC channel](http://www.ghostbsd.org/irc)
+
+
+### Podcasts:
+- [BSD Now](https://www.bsdnow.tv/) - BSD Now is Podcast discussing BSD news and happenings, which first aired on March 29th, 2018.
+- [BSD Talk](https://bsdtalk.blogspot.com/) - A former BSD Podcast ended in 2017.
+- [Garbage](https://garbage.jcs.org/) - Another former BSD podcast, ended in 2017.
+
+### Subreddits:
+
+- [/r/BSD](https://www.reddit.com/r/BSD/)
+- [/r/DragonflyBSD](https://www.reddit.com/r/DragonflyBSD/)
+- [/r/FreeBSD](https://www.reddit.com/r/FreeBSD/)
+- [/r/NetBSD](https://www.reddit.com/r/NetBSD/)
+- [/r/OpenBSD](https://www.reddit.com/r/OpenBSD/)
+
+
+***********
+
+## Miscallaneous Web Resources
 
 - [FreeBSD Foundation Resources](https://freebsdfoundation.org/freebsd-project/resources/) - a variety of how-to's and projects for FreeBSD users from the Free BSD foundation.
 - [FreeBSDnews.com](https://www.freebsdnews.com/) - a News website dedicated to FreeBSD.
 - [iBSD](https://i-bsd.com/blog/) - a Blog dedicated to showing how to do things on BSD.
-- [Netbsd.fi](https://netbsd.fi/) - a website that combines netbsd questions and news articles into a continuos feed.
+- [Netbsd.fi](https://netbsd.fi/) - a website that combines netbsd questions and news articles into a continous feed.
+- [NetBSD Blog](https://blog.netbsd.org/) - The NetBSD blog from NetBSD.org, acts a sort of news aggregator.
 - [Pkgs.org](https://pkgs.org/) - Pkgs.org is a website dedicated to tracking packages for multiple OS's and also does so for the NetBSD and Free BSD Projects.
 - [Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to providing the visitor with a random fact about why OpenBSD is a well built Operating System.
+- [Undeadly.org](https://undeadly.org/cgi?action=front) - an OpenBSD News aggregator.
+- [BSD Magazine](https://bsdmag.org/) - A Digital Only BSD Magazine, it does have a subscription fee, but also has a free tier.
 
 #### BSD Handbooks
 *Due to how BSD is developed, documentation is seen as a very important part of the process, because of this each of the Major BSD's publishes a handbook yearly for their OS's. This covers the basics of installing, operating, installing, and administrating each of their OS's.*
 
-[The DragonflyBSD Handbook](https://www.dragonflybsd.org/docs/handbook/)
-[The FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/)
-[The NetBSD Handbook](https://www.netbsd.org/docs/guide/en/)
-[The OpenBSD Handbook](https://www.openbsdhandbook.com/)
+- [The DragonflyBSD Handbook](https://www.dragonflybsd.org/docs/handbook/)
+- [The FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/)
+- [The NetBSD Handbook](https://www.netbsd.org/docs/guide/en/)
+- [The OpenBSD Handbook](https://www.openbsdhandbook.com/)
 
 ***********
 
@@ -588,6 +651,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 ## Attribution
 *The usage of the BSD Family Tree in the What is BSD FAQ is used under the GNU Free Documentation License Version 1.2 or later. All logos of the various BSD's are the property of their respective projects.*
 
+- DragonflyBSD DragonFlyBSD is a registered trademark of the DragonFlyBSD Project.
 - FreeBSD® is a registered trademark of The FreeBSD Foundation. in the United States and/or other countries.
 - NetBSD® is a registered trademark of The NetBSD Foundation, Inc. in the United States and/or other countries.
 - OpenBSD ® is a registered trademark of The OpenBSD Foundation, Inc. in the United States and/or other countries.
