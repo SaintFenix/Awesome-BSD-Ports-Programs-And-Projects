@@ -28,8 +28,11 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
 - [Ports and Programs](#Ports-and-Programs)
   - [Audio](#Audio)
   - [Command Line Utilities](#Command-Line-Utilities)
+  - [Chat Clients](#Chat-Clients)
   - [Data Backup and Recovery](#Data-Backup-and-Recovery)
   - [Desktop Environments](#Desktop-Environments)
+  - [Development](#Development)
+  - [Editors](#Editors)
   - [Emulators](#Emulators)
   - [File Managers](#File-Managers)
   - [Network Tools](#Network-Tools)
@@ -37,7 +40,7 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Security](#Security)
   - [Terminal Emulators](#Terminal-Emulators)
   - [UNIX Shells](#UNIX-Shells)
-  - [Utilites](#Utilities)
+  - [Utilities](#Utilities)
 - [Miscallaneous BSDs](#Miscallaneous-BSDs)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
@@ -97,6 +100,7 @@ It depends on the BSD but they all will be somewhat similar, this will assume th
 
 **NetBSD**: pkgin install (*packagename*)
   ^*Note that NetBSD may need to have [pkgin installed](https://pkgin.net/) first before this command will function.*
+  ^^*Additional Note You may need to follow [these instructions](https://www.pkgsrc.org/wip/) if the pkg is located in wip.
 
 **OpenBSD**: pkg_add (*packagename*)
 
@@ -193,6 +197,84 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/neofetch/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/neofetch) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/neofetch) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/neofetch) ![](img/termprog.png)
 
+### Chat Clients
+
+#### 3rd party Client
+
+- [![Open-Source Software][OSS Icon]](https://github.com/Bios-Marcel/cordless) [Cordless](https://github.com/Bios-Marcel/cordless) - Cordless is a custom Discord client that aims to have a low memory footprint and be aimed at power-users. It uses a TUI interface on the command line - The Discord terminal client you never knew you wanted.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/cordless/)  ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/Aseman-Land/Cutegram) [Cutegram](https://aseman.co/) - Cutegram is a free and open source telegram clients for Linux, Windows, OS X and OpenBSD, focusing on user friendly, compatibility with desktop environments. Cutegram using Qt5, QML, libqtelegram, libappindication, AsemanQtTools technologies and Faenza icons and Twitter emojies graphic sets. It’s free and released under GPLv3 license.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/cutegram/)
+
+#### All-in-One Client
+
+- [![Open-Source Software][OSS Icon]](https://keep.imfreedom.org/pidgin/) [Finch](https://developer.pidgin.im/wiki/Using%20Finch) - Finch is the Command line interface for [Pidgin](https://www.pidgin.im/), Finch is a multi-protocol instant messaging client. It is compatible with AIM (Oscar and TOC protocols), ICQ, IRC, Jabber, Gadu-Gadu, and Zephyr networks.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/finch/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/finch) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/finch) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://keep.imfreedom.org/pidgin/) [Pidgin](https://www.pidgin.im/) - Pidgin is a chat program which lets you log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends on XMPP and sitting in an IRC channel at the same time.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/pidgin/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/pidgin) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/pidgin) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/pidgin)
+
+#### Chat Server
+
+- [![Open-Source Software][OSS Icon]](https://github.com/ircd-hybrid/ircd-hybrid) [IRCD-Hybrid](https://www.ircd-hybrid.org/) - IRC (Internet Relay Chat) provides a way of communicating in real time with people. Generally, the user runs a client program to a server running a IRC server software. Hybrid ircd is such a server.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/ircd-hybrid/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/ircd-hybrid) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/ircd-hybrid) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/ircd-hybrid) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/mattermost/mattermost-server) [Mattermost-Server](https://mattermost.com/) - Open source Slack-alternative in Golang and React.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/www/mattermost-server/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/mattermost-server) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/mattermost-server) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mattermost-server) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/ngircd/ngircd) [ngIRCd](https://ngircd.barton.de/) - ngIRCd is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). The server is quite easy to configure, can handle dynamic IP addresses, and optionally supports IDENT, IPv6 connections, SSL-protected links, and PAM for user authentication as well as character set conversion for legacy clients. The server has been written from scratch and is not based on the forefather, the daemon of the IRCNet.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/ngircd/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/ngircd) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/ngircd) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/ngircd) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/oragono/oragono) [Oragono](https://oragono.io/) - Oragono is a modern IRC server written in Go. Its core design principles are: ,Being simple to set up and use, Combining the features of an ircd, a services framework, and a, bouncer (integrated account management, history storage, and bouncer functionality), Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation, Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/oragono/)  ![](img/termprog.png)
+
+#### Chat Server Utilities
+
+- [![Open-Source Software][OSS Icon]](https://github.com/bitlbee/bitlbee) [BitlBee](https://www.bitlbee.org/main.php/news.r.html) - BitlBee brings IM (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/facebook/discord/whatever client.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/bitlbee/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/bitlbee) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/bitlbee) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/bitlbee) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/42wim/matterbridge) [Matterbridge](https://github.com/42wim/matterbridge) - bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble and more with REST API (mattermost not required!)
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/matterbridge/)  ![](img/termprog.png)
+
+#### IRC Client
+
+- [![Open-Source Software][OSS Icon]](https://github.com/hexchat/hexchat) [EPIC](https://hexchat.github.io/) - EPIC is a IRC client that has been under active development for 25+ years in 5 generations. It is stable and mature, and offers an excellent ircII interface for those of us who are accustomed to the ircII way of doing things.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/epic5/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/epic4) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/epic4) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/epic4) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/hexchat/hexchat) [Hexchat](https://hexchat.github.io/) - HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems. Since XChat is open source, it’s perfectly legal. For more info, please read the Shareware background.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/hexchat/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/hexchat) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/hexchat) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/hexchat)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/mbp/lostirc/tree/master/lostirc) [LostIRC](http://lostirc.sourceforge.net/) - LostIRC is a simple, yet very useful IRC client. It has features such as tab-autocompletion, multiple server support, automatic joining of servers/channels, logging and DCC sending which should cover the needs of most people. Another goal that the application has in mind, is 100% keyboard controlability. It was written using the gtkmm GUI library.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/lostirc/) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/KDE/konversation) [Konversation](https://konversation.kde.org/) - Konversation is a user-friendly Internet Relay Chat (IRC) client built on the KDE Platform.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/konversation/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/konversation) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/konversation) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/konversation)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/weechat/weechat) [Weechat](https://weechat.org/) - Full-featured IRC chat client with plugin support for: multi-servers, proxy support, IPv6, SASL authentication, nicklist, DCC, and many other features.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/weechat/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/weechat) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/weechat) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/weechat)
+
+#### XMPP/Jabber Chat Client
+
+- [![Open-Source Software][OSS Icon]](https://github.com/dino/dino) [dino](https://dino.im/) - Dino is a modern open-source chat client for the desktop. It focuses on providing a clean and reliable Jabber/XMPP experience while having your privacy in mind.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/dino/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/dino) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/dino) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/dino)
+
 ### Data Backup and Recovery
 
 - [![Open-Source Software][OSS Icon]](https://www.bacula.org/git/cgit.cgi/bacula/) [Bacula - Client](https://www.bacula.org/) - Bacula is a set of Open Source, computer programs that permit you to manage backup, recovery, and verification of computer data across a network of computers of different kinds. This is for the client installation.
@@ -225,7 +307,33 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
 
-## Editors
+### Development
+
+#### C\+\+
+
+- [![Open-Source Software][OSS Icon]](http://www.codeblocks.org/downloads/source) [Code::Blocks](http://www.codeblocks.org/) - Code::Blocks is a free C, C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/devel/codeblocks/) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/devel/codeblocks)
+
+
+#### General Purpose IDE's
+
+- [![Open-Source Software][OSS Icon]](https://github.com/geany/geany) [Geany](https://www.geany.org/) - Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/devel/geany/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/devel/geany) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/devel/geany) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/devel/geany)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/microsoft/vscode) [Visual Studio Code](https://code.visualstudio.com/) - VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/vscode/)
+
+### Editors
+
+- [![Open-Source Software][OSS Icon]](https://github.com/atom/atom) [Atom](https://atom.io/) - Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/atom/)
+
+  - [![Open-Source Software][OSS Icon]](https://github.com/facebookarchive/atom-ide-ui) [Atom-ide](https://ide.atom.io/) - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin. 
+<br/>
 
 - [![Open-Source Software][OSS Icon]](https://github.com/emacs-mirror/emacs) [Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
 
