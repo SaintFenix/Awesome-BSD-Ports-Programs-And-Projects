@@ -23,7 +23,7 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Can I mix and Match Ports and Packages?](#Can-I-mix-and-Match-Ports-and-Packages)
   - [What if I have another BSD?](#What-if-I-have-another-BSD)
   - [How can I install these programs?](#How-can-I-install-these-programs)
-  - [What are the Big Four BSD's?](#What-are-the-Big-Four-BSD's)
+  - [What are the Big Four BSD's?](#What-are-the-Big-Four-BSDs)
 - [Icon Key](#Key)
 - [Ports and Programs](#Ports-and-Programs)
   - [Audio](#Audio)
@@ -41,13 +41,15 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Terminal Emulators](#Terminal-Emulators)
   - [UNIX Shells](#UNIX-Shells)
   - [Utilities](#Utilities)
-- [Miscallaneous BSDs](#Miscallaneous-BSDs)
+- [Other BSDs](#Other-BSDs)
 - [Community](#Community)
 - [Projects](#Projects)
 - [How-To's](#How-To's)
 - [Miscallaneous Web Resources](#Miscallaneous-Web-Resources)
   - [BSD Handbooks](#BSD-Handbooks)
 - [Other Awesome Lists](#Other-Awesome-Lists)
+- [Guidelines to contribute](#Guidelines-to-contribute)
+- [Unsure How to Contribute?](#Guidelines-to-contribute)
 - [Attribution](#Attribution)
 
 
@@ -66,6 +68,8 @@ BSD takes a more centralized approach in its development having entire program a
 Because of this difference and because BSD is built around an entire ecosystem from the start, it has an excellent history of documentation for its various functions, both in the Kernel, and with its programs.
 
 For the average UNIX user, it will seem very familiar in many ways, and learning BSD from Linux or other UNIX based Operating Systems will be fairly straightforward, with nearly all of the most common UNIX friendly tools and shells are available for the user.
+
+Here is a more in-depth guide to the differences: [How Linux, BSD, UNIX, and macOS Relate to Each Other.](https://github.com/jdrch/Hardware/wiki/How-Linux,-BSD,-UNIX,-and-macOS-relate-to-each-other#non-certified-but-mostly-posix-compliant-oses)
 
 #### What are the differences between Packages and Ports?
 <div align="center">
@@ -101,7 +105,7 @@ It depends on the BSD but they all will be somewhat similar, this will assume th
 
 **NetBSD**: pkgin install (*packagename*)
   ^*Note that NetBSD may need to have [pkgin installed](https://pkgin.net/) first before this command will function.*
-  ^^*Additional Note You may need to follow [these instructions](https://www.pkgsrc.org/wip/) if the pkg is located in wip.
+  ^^*Additional Note You may need to follow [these instructions](https://www.pkgsrc.org/wip/) if the pkg is located in wip.*
 
 **OpenBSD**: pkg_add (*packagename*)
 
@@ -484,14 +488,20 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ***********
 
-## Miscallaneous BSDs
+## Other BSDs
 *Here are the various other smaller BSD's that exist, some are for very specific purposes, but there are many BSD's.*
 
 - [BlackBSD](http://blackbsd.tk/) - Based off of NetBSD BlackBSD is a penetration testing distribution with many common pen-testing applications pre-installed. It functions completely as a liveCD or USB.
+- [BSD Router Project](https://bsdrp.net/) - A Project to create a BSD distribution focusing on turning the OS into a Router.
 - [GhostBSD](https://ghostbsd.org/) - A BSD based on FreeBSD it is Designed around the MATE desktop Environment or the XFCE desktop environment, Attempting to be simple, complete, and welcoming.
-- [OPNsense](https://opnsense.org/) - A BSD that functions as a Firewall for a home network, or Enterprise, one of the successors to m0n0wall.
-- [pfsense](https://www.pfsense.org/)- A BSD that functions as a firewall for a home or enterprise network, one of the successors to m0n0wall.
+- [HardenedBSD](https://hardenedbsd.org/) - A security conscious branch of FreeBSD development.
 - [MidnightBSD](https://www.midnightbsd.org/) - A BSD designed for the average desktop user with both Lumina and GNOME 3 desktops available and all the basic software the average user would need.
+- [MirBSD](http://www.mirbsd.org/) - A BSD based somewhat off OpenBSD, and parts of NetBSD. The project focuses on its unique MirPorts Framework.
+- [NomadBSD](https://nomadbsd.org/) - A BSD designed to be used off a flash drive, based on FreeBSD.
+- [OPNsense](https://opnsense.org/) - A BSD that functions as a Firewall for a home network, or Enterprise, one of the successors to m0n0wall.
+- [OS108](https://os108.org/) - OS108 is a fast, open and Secure Desktop Operating System built on top of NetBSD.
+- [pfsense](https://www.pfsense.org/) - A BSD that functions as a firewall for a home or enterprise network, one of the successors to m0n0wall.
+- [SmallWall](http://www.smallwall.org/) - A BSD Firewall OS designed to be like the old m0n0wall, light and effective. Distro is still barely active.
 - [TrueNAS](https://www.truenas.com/) - A BSD based off of FreeBSD focussing on providing the best Fileserver experience for both at home, and in the enterprise.
 - [XigmaNAS](https://www.xigmanas.com/) - A BSD based off of FreeBSD which focuses on turning your computer into a Network Attached Storage Appliance.
 
@@ -509,6 +519,11 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [How to customize the FreeBSD Kernel](https://www.nxfury.com/the-power-to-serve-custom-kernel-goodness-on-freebsd)
 - [How to Setup a Samba (Windows) fileserver w/FreeBSD](https://vermaden.wordpress.com/2018/12/27/smb-cifs-on-freebsd/)
 - [How to get Stardew Valley running on FreeBSD](https://bitcannon.net/post/stardew-valley-on-freebsd/)
+- [How to setup a webserver on FreeBSD inside a Jail](https://rderik.com/notes/running-a-web-server-on-freebsd-inside-a-jail/)
+
+**NetBSD:**
+- [How to take your first Steps on NetBSD](https://www.netbsd.org/docs/guide/en/chap-boot.html) - This assumes that you have installed the OS already.
+- [How to setup a Tor Bridge on NetBSD](https://community.torproject.org/relay/setup/bridge/netbsd/)
 
 **OPNsense:**
 - [How to Setup an OPNsense Firewall on your network](https://www.tecmint.com/install-and-configure-opnsense-firewall/)
@@ -551,7 +566,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [How to check Hard Drive or SDD Health in FreeBSD](https://www.osetc.com/en/how-to-check-hard-drive-health-on-freebsd.html)
 - [How to install Security updates on FreeBSD](https://www.cyberciti.biz/faq/freebsd-applying-security-updates-using-pkg-freebsd-update/)
 - [How to change your hostname (Computer Name) on FreeBSD](https://codesposts.com/y0pQ2lO3)
-- [How to user Ansible on FreeBSD](https://rubenerd.com/ansible-on-freebsd/)
+- [How to use Ansible on FreeBSD](https://rubenerd.com/ansible-on-freebsd/)
 - [How to figure out the system Temperature in FreeBSD](https://www.cyberciti.biz/faq/freebsd-determine-processor-cpu-temperature-command/)
 - [How to setup booting Linux and BSD from the same ZFS pool](https://www.reddit.com/r/freebsd/comments/jh8zkc/successfully_dual_boot_freebsd_linux_installed_in/)
 
@@ -578,8 +593,13 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 #### OtherBSD Forums:
 - [GhostBSD Forums](https://forums.ghostbsd.org/) - The Official GhostBSD Forums.
+- [OS108 forums](https://forums.os108.org/) - The Official OS108 Forums.
+- [MirBSD Mailing List](https://www.mirbsd.org/rss.htm) - The Official Mailing Lists for MirBSD.
+- [Smallwall Forums](https://smallwall.freeforums.net/) - The Official Forums for SmallWall BSD.
+- [Unix.com BSD Forum](https://www.unix.com/bsd/) - the BSD subforum at Unix.com.
 
 #### General BSD Forums:
+- [BSDForen](https://www.bsdforen.de/) - (German) a center for the German speaking BSD Userbase.
 - [DaemonForums](http://daemonforums.org/) - a very long running forum with sections for FreeBSD, NetBSD, and OpenBSD.
 - [UnitedBSD Main Forum](https://www.unitedbsd.com/)
 - [UnitedBSD - DragonflyBSD](https://www.unitedbsd.com/t/otherbsds)
@@ -612,21 +632,27 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [/r/FreeBSD](https://www.reddit.com/r/FreeBSD/)
 - [/r/NetBSD](https://www.reddit.com/r/NetBSD/)
 - [/r/OpenBSD](https://www.reddit.com/r/OpenBSD/)
+- [/r/Unix](https://www.reddit.com/r/unix/)
 
 
 ***********
 
 ## Miscallaneous Web Resources
 
+- [BSD Magazine](https://bsdmag.org/) - A Digital Only BSD Magazine, it does have a subscription fee, but also has a free tier.
+- [BSDsec](https://bsdsec.net/) - deadsimple BSD Security Advisories and Announcements.
 - [FreeBSD Foundation Resources](https://freebsdfoundation.org/freebsd-project/resources/) - a variety of how-to's and projects for FreeBSD users from the Free BSD foundation.
 - [FreeBSDnews.com](https://www.freebsdnews.com/) - a News website dedicated to FreeBSD.
+- [FreeBSD Wiki](https://wiki.freebsd.org/) - The Official FreeBSD Wiki.
+- [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page) - The Official Wiki of GhostBSD.
 - [iBSD](https://i-bsd.com/blog/) - a Blog dedicated to showing how to do things on BSD.
-- [Netbsd.fi](https://netbsd.fi/) - a website that combines netbsd questions and news articles into a continous feed.
+- [Netbsd.fi](https://netbsd.fi/) - a website that combines netbsd questions and news articles into a continuous feed.
 - [NetBSD Blog](https://blog.netbsd.org/) - The NetBSD blog from NetBSD.org, acts a sort of news aggregator.
+- [NetBSD wiki](https://wiki.netbsd.org/) - The Official NetBSD Wiki.
 - [Pkgs.org](https://pkgs.org/) - Pkgs.org is a website dedicated to tracking packages for multiple OS's and also does so for the NetBSD and Free BSD Projects.
-- [Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to providing the visitor with a random fact about why OpenBSD is a well built Operating System.
+- [Planet FreeBSD](https://planet.xbsd.net/) - A News Aggregator for FreeBSD.
 - [Undeadly.org](https://undeadly.org/cgi?action=front) - an OpenBSD News aggregator.
-- [BSD Magazine](https://bsdmag.org/) - A Digital Only BSD Magazine, it does have a subscription fee, but also has a free tier.
+- [Why-OpenBSD.Rocks](https://why-openbsd.rocks/fact/) - A site dedicated to providing the visitor with a random fact about why OpenBSD is a well built Operating System.
 
 #### BSD Handbooks
 *Due to how BSD is developed, documentation is seen as a very important part of the process, because of this each of the Major BSD's publishes a handbook yearly for their OS's. This covers the basics of installing, operating, installing, and administrating each of their OS's.*
@@ -648,6 +674,25 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ***********
 
+## Guidelines to contribute
+
+> Simply put the name of the **application** in the list.
+> Link to its **homepage** or a **guide** on how to install it, ideally you will have installed it so you know the process and know that the program functions.
+> Also write a **short description** for the application + add **icon**. (If the program also has a blurb on it's homepage of it's functions that also works.)
+> Make sure it is put under the **appropriate topic**. That can always be clarified in the pull request if neccesary.
+> Ensure everything is **alphabetically sorted**.
+
+***********
+
+## Unsure how to contribute?
+
+- [How to Use Github](https://guides.github.com/activities/forking/)
+- [How to Git from the Command Line](https://rogerdudler.github.io/git-guide/)
+- [What is Markdown?](https://github.com/luong-komorebi/Markdown-Tutorial) - Markdown is the writing method used to create this list, if you want to know how to format properly, it's best that you learn how to use Github Markdown.
+- [Alternative Markdown Guide:](https://guides.github.com/features/mastering-markdown/)
+
+***********
+
 ## Attribution
 *The usage of the BSD Family Tree in the What is BSD FAQ is used under the GNU Free Documentation License Version 1.2 or later. All logos of the various BSD's are the property of their respective projects.*
 
@@ -655,6 +700,11 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - FreeBSD® is a registered trademark of The FreeBSD Foundation. in the United States and/or other countries.
 - NetBSD® is a registered trademark of The NetBSD Foundation, Inc. in the United States and/or other countries.
 - OpenBSD ® is a registered trademark of The OpenBSD Foundation, Inc. in the United States and/or other countries.
+
+***********
+
+**Special Thanks:**
+[luong-komorebi](https://github.com/luong-komorebi) - Thank you for teaching me how to use Git! and thank you for being an excellent maintainer of the [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) repo!
 
 ***********
 
