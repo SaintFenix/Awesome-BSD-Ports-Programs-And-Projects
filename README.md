@@ -11,6 +11,10 @@
 
 This repository will function as a list of interesting ports, programs, and Projects for newbies and veterans to BSD.
 
+Feel free to contribute / star / fork / or make a pull request, We appreciate any recommendations and suggestions are welcome. BSD's community is what makes this possible!
+
+A guide for contributing are at the very bottom of the list or at the [How to Contribute Document](CONTRIBUTING.md)
+
 **Acknowledgements**:
 I am merely a passionate newbie to these OS's and freely admit that I know enough to be dangerous, please put in a pull request if you find information that can be improved or otherwise modified to be clearer.
 
@@ -676,11 +680,19 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ## Guidelines to contribute
 
-> Simply put the name of the **application** in the list.
-> Link to its **homepage** or a **guide** on how to install it, ideally you will have installed it so you know the process and know that the program functions.
+> Simply put the name of the **application** in the list, and make sure you add ports to the software if some exist. If it's available only in Git, that's no worry.
+> Link to its **homepage** or a **guide** on how to install it, ideally you will have installed it so you know the process and know that the program functions correctly.
 > Also write a **short description** for the application + add **icon**. (If the program also has a blurb on it's homepage of it's functions that also works.)
 > Make sure it is put under the **appropriate topic**. That can always be clarified in the pull request if neccesary.
 > Ensure everything is **alphabetically sorted**.
+
+The format is pretty straightforward:
+
+```- [![Open-Source Software][OSS Icon]](http://OPENSOURCECODE.git.com) [NAME OF PROGRAM](PROGRAM HOMEPAGE) - This is an explanation of what the program does written by you or a copy of the official explanation of the program from the programs homepage. either works fine here.```
+
+  ```[![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)```
+
+This second block is one tab over, to make sure that the icons line up, the links in this block all go to either: Freshports.org, pkgsrc.se, or openports.se. Freshports for FreeBSD, pkgsrc for Dragonfly and NetBSD, and Openports for OpenBSD.  If the BSD in question doesn't have a port available in any one or all of the sites, remove the whole object. Please insert the ![](img/termprog.png) if the program is terminal only to clarify where the program can be used, either on a window manager desktop or command line.
 
 ***********
 
@@ -696,7 +708,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 ## Attribution
 *The usage of the BSD Family Tree in the What is BSD FAQ is used under the GNU Free Documentation License Version 1.2 or later. All logos of the various BSD's are the property of their respective projects.*
 
-- DragonflyBSD DragonFlyBSD is a registered trademark of the DragonFlyBSD Project.
+- DragonflyBSD® is a registered trademark of the DragonFlyBSD Project.
 - FreeBSD® is a registered trademark of The FreeBSD Foundation. in the United States and/or other countries.
 - NetBSD® is a registered trademark of The NetBSD Foundation, Inc. in the United States and/or other countries.
 - OpenBSD ® is a registered trademark of The OpenBSD Foundation, Inc. in the United States and/or other countries.
