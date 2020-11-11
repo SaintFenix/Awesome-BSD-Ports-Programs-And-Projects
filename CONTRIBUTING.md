@@ -22,3 +22,5 @@ The format is pretty straightforward:
   ```[![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)```
 
 This second block is one tab over, to make sure that the icons line up, the links in this block all go to either: Freshports.org, pkgsrc.se, or openports.se. Freshports for FreeBSD, pkgsrc for Dragonfly and NetBSD, and Openports for OpenBSD.  If the BSD in question doesn't have a port available in any one or all of the sites, remove the whole object. Please insert the ![](img/termprog.png) if the program is terminal only to clarify where the program can be used, either on a window manager desktop or command line.
+
+other information across the list is also welcome, in case you have a new forum, or source of BSD info to add to the appropriate place.
