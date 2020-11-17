@@ -508,6 +508,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [MirBSD](http://www.mirbsd.org/) - A BSD based somewhat off OpenBSD, and parts of NetBSD. The project focuses on its unique MirPorts Framework.
 - [NomadBSD](https://nomadbsd.org/) - A BSD designed to be used off a flash drive, based on FreeBSD.
 - [OPNsense](https://opnsense.org/) - A BSD that functions as a Firewall for a home network, or Enterprise, one of the successors to m0n0wall.
+- [Orbis OS](https://en.wikipedia.org/wiki/PlayStation_4_system_software) - The Playstation 4 Operating system, not available other than on PS4.
 - [OS108](https://os108.org/) - OS108 is a fast, open and Secure Desktop Operating System built on top of NetBSD.
 - [pfsense](https://www.pfsense.org/) - A BSD that functions as a firewall for a home or enterprise network, one of the successors to m0n0wall.
 - [SmallWall](http://www.smallwall.org/) - A BSD Firewall OS designed to be like the old m0n0wall, light and effective. Distro is still barely active.
@@ -651,6 +652,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [BSD Magazine](https://bsdmag.org/) - A Digital Only BSD Magazine, it does have a subscription fee, but also has a free tier.
 - [BSDsec](https://bsdsec.net/) - deadsimple BSD Security Advisories and Announcements.
 - [FreeBSD Foundation Resources](https://freebsdfoundation.org/freebsd-project/resources/) - a variety of how-to's and projects for FreeBSD users from the Free BSD foundation.
+- [FreeBSD Port Tree on Github](https://github.com/freebsd/freebsd-ports) - The FreeBSD port tree on Github as a read only mirror, you can watch daily how often ports are updated or added here.
 - [FreeBSDnews.com](https://www.freebsdnews.com/) - a News website dedicated to FreeBSD.
 - [FreeBSD Wiki](https://wiki.freebsd.org/) - The Official FreeBSD Wiki.
 - [GhostBSD Wiki](https://wiki.ghostbsd.org/index.php/Main_Page) - The Official Wiki of GhostBSD.
