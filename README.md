@@ -39,6 +39,7 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Editors](#Editors)
   - [Emulators](#Emulators)
   - [File Managers](#File-Managers)
+  - [Games](#Games)
   - [Network Tools](#Network-Tools)
   - [Office](#Office)
   - [Security](#Security)
@@ -304,6 +305,9 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Desktop Environments
 
+- [![Open-Source Software][OSS Icon]](https://github.com/sulami/FrankenWM) [FrankenWM](https://github.com/sulami/FrankenWM) - FrankenWM is a dynamic tiling WM (comparable to dwm or Awesome), featuring the v-stack, b-stack, grid, fibonacci, dualstack, equal and monocle layouts out of the box. If you want to, you can add gaps between the windows as well.
+<br/>
+
 - [![Open-Source Software][OSS Icon]](https://gitlab.gnome.org/GNOME/gnome-shell) [Gnome 3](https://www.gnome.org/gnome-3/) - GNOME 3 provides a focused working environment that helps you to get things done, and it is packed with features that will make you more productive. A powerful search feature lets you access all your work from one place. Side-by-side windows makes it easy to view several documents at the same time.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
@@ -413,11 +417,15 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/games/xonotic/)  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/games/xonotic)
 
-### Network tools
+### Network Tools
 
-- [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Mosh](https://fishshell.com/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
+- [![Open-Source Software][OSS Icon]](https://github.com/mobile-shell/mosh) [Mosh](https://mosh.org/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/mosh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/net/mosh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/net/mosh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mosh)  ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/zerotier/ZeroTierOne) [Zerotier](https://www.zerotier.com/) - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/zerotier/)  ![](img/termprog.png)
 
 ### Office
 
@@ -443,9 +451,17 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/doas/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/doas) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/doas) ![](img/termprog.png)
 
+- [![Open-Source Software][OSS Icon]](https://erdgeist.org/gitweb/ezjail/) [ezjail](https://erdgeist.org/arts/software/ezjail/) - ezjail is about making managing jails on FreeBSD as easy as possible, aiming for minimum system resource usage. All further references to the term Jail are to a virtual FreeBSD-system consisting of a host name, an IP-address and a Jail root.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/ezjail/)
+
 - [![Open-Source Software][OSS Icon]](https://github.com/fail2ban/fail2ban) [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/py-fail2ban/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/fail2ban) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/fail2ban) ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://erdgeist.org/gitweb/ezjail/) [iocage](https://iocage.readthedocs.io/en/latest/) - iocage is a jail/container manager amalgamating some of the best features and technologies the FreeBSD operating system has to offer. It is geared for ease of use with a simple and easy to understand command syntax.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/iocage/)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/future-architect/vuls) [Vuls](https://vuls.io/) - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.
 
@@ -519,6 +535,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 - [FuguIta OpenBSD](http://fuguita.org/) - FuguIta is a live system which runs off Floppy disk or Flash drive which allows you to take OpenBSD with you regardless of machine.
 - [GhostBSD](https://ghostbsd.org/) - A BSD based on FreeBSD it is Designed around the MATE desktop Environment or the XFCE desktop environment, Attempting to be simple, complete, and welcoming.
 - [HardenedBSD](https://hardenedbsd.org/) - A security conscious branch of FreeBSD development.
+- [Hello](https://github.com/helloSystem/hello) - Based on FreeBSD, [Hello is Desktop system](https://medium.com/@probonopd/hello-lets-make-a-freebsd-for-mere-mortals-41b8f93ba075) for creators with focus on simplicity, elegance, and usability. Less, but better!
 - [MidnightBSD](https://www.midnightbsd.org/) - A BSD designed for the average desktop user with both Lumina and GNOME 3 desktops available and all the basic software the average user would need.
 - [MirBSD](http://www.mirbsd.org/) - A BSD based somewhat off OpenBSD, and parts of NetBSD. The project focuses on its unique MirPorts Framework.
 - [NomadBSD](https://nomadbsd.org/) - A BSD designed to be used off a flash drive, based on FreeBSD.
