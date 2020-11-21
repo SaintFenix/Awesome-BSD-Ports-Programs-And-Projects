@@ -399,6 +399,20 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/py-ranger/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/ranger) ![](img/termprog.png)
 
+### Games
+
+- [![Open-Source Software][OSS Icon]](https://github.com/arx/ArxLibertatis) [Arx-Libertatis](https://arx-libertatis.org/) - Arx Libertatis is a cross-platform, open source port of Arx Fatalis, a 2002 first-person role-playing game developed by Arkane Studios.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/games/arx-libertatis/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/games/arx-libertatis) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/games/arx-libertatis) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/games/arx-libertatis)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/OpenArena) [OpenArena](http://www.openarena.ws/smfnews.php) - OpenArena is a community-produced deathmatch FPS based on GPL idTech3 technology. There are many game types supported including Free For All, Capture The Flag, Domination, Overload, Harvester, and more.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/games/openarena/)  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/games/openarena)
+
+- [![Open-Source Software][OSS Icon]](https://gitlab.com/xonotic/xonotic/blob/master/README.md) [Xonotic](https://xonotic.org/) - Xonotic is an addictive, arena-style first person shooter with crisp movement and a wide array of weapons. It combines intuitive mechanics with in-your-face action to elevate your heart rate. Xonotic is and will always be free-to-play. It is available under the copyleft-style GPLv3+ license.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/games/xonotic/)  [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/games/xonotic)
+
 ### Network tools
 
 - [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) [Mosh](https://fishshell.com/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
@@ -502,6 +516,7 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 - [BlackBSD](http://blackbsd.tk/) - Based off of NetBSD BlackBSD is a penetration testing distribution with many common pen-testing applications pre-installed. It functions completely as a liveCD or USB.
 - [BSD Router Project](https://bsdrp.net/) - A Project to create a BSD distribution focusing on turning the OS into a Router.
+- [FuguIta OpenBSD](http://fuguita.org/) - FuguIta is a live system which runs off Floppy disk or Flash drive which allows you to take OpenBSD with you regardless of machine.
 - [GhostBSD](https://ghostbsd.org/) - A BSD based on FreeBSD it is Designed around the MATE desktop Environment or the XFCE desktop environment, Attempting to be simple, complete, and welcoming.
 - [HardenedBSD](https://hardenedbsd.org/) - A security conscious branch of FreeBSD development.
 - [MidnightBSD](https://www.midnightbsd.org/) - A BSD designed for the average desktop user with both Lumina and GNOME 3 desktops available and all the basic software the average user would need.
