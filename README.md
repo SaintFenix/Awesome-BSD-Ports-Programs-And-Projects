@@ -40,6 +40,7 @@ I am merely a passionate newbie to these OS's and freely admit that I know enoug
   - [Emulators](#Emulators)
   - [File Managers](#File-Managers)
   - [Games](#Games)
+  - [Media Players](#Media-Players)
   - [Network Tools](#Network-Tools)
   - [Office](#Office)
   - [Security](#Security)
@@ -419,13 +420,23 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
 ### Network Tools
 
-- [![Open-Source Software][OSS Icon]](https://github.com/mobile-shell/mosh) [Mosh](https://mosh.org/) - Mosh is a shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
+- [![Open-Source Software][OSS Icon]](https://github.com/mobile-shell/mosh) [Mosh](https://mosh.org/) - Mosh is a remote shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/mosh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/net/mosh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/net/mosh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mosh)  ![](img/termprog.png)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/zerotier/ZeroTierOne) [Zerotier](https://www.zerotier.com/) - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/zerotier/)  ![](img/termprog.png)
+
+### Media Players
+
+- [![Open-Source Software][OSS Icon]](https://github.com/PromyLOPh/pianobar) [Pianobar](https://6xq.net/pianobar/) - Pianobar is a free/open-source, console-based client for the personalized online radio Pandora.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/audio/pianobar/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/audio/pianobar) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/audio/pianobar) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/audio/pianobar)  ![](img/termprog.png)
+
+- [![Open-Source Software][OSS Icon]](https://github.com/videolan/vlc) [VLC](https://www.videolan.org/vlc/index.html) - VLC media player is a highly portable multimedia player for various audio and video formats  as well as DVD's, VCD's, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. VLC also has the ability to transcode media on-the-fly for streaming or saving to disk.
+
+  [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/multimedia/vlc/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/multimedia/vlc) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/multimedia/vlc) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/vlc)
 
 ### Office
 
@@ -500,6 +511,10 @@ The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
     ![](img/termprog.png)
 <br/>
+
+- [![Open-Source Software][OSS Icon]](https://github.com/oilshell/oil) [Osh](https://www.oilshell.org/) - Oil-Shell is a new shell intended to replace bash, with a built in language called oil language. It is largely compatible with bash scripts.
+
+  ![](img/termprog.png)
 
 - [![Open-Source Software][OSS Icon]](https://github.com/tcsh-org/tcsh) [tcsh](https://www.tcsh.org/) - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD though not its default user shell, and can be installed on the other major BSD's.
 
